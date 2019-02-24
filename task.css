@@ -1,0 +1,59 @@
+.nav-extended{background-color: #81d4fa ;
+text-align: center;}
+.cart{
+    border: solid 0.5px black;
+            background-color: white;
+            border-radius: 5px;
+}
+#Page2,#Page1{padding:2rem;}
+.img{
+    
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+}
+.fa-store{font-size: 1.5em}
+.brand-logo:hover{color:white;
+    text-decoration: none;}
+body{background: #f5f5f5;}
+.btn{z-index: 0;}
+.overcontainer {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ac1818;
+  }
+  
+  .overcontainer:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
